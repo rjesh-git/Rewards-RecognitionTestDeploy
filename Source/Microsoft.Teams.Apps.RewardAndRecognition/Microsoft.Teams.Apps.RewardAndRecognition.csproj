@@ -78,11 +78,11 @@
     <Content Update="wwwroot\Content\Appicon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
     <AdditionalFiles Include="..\..\Build\stylecop.json" Link="stylecop.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </AdditionalFiles>
-  </ItemGroup>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Resources\Strings.resx">
