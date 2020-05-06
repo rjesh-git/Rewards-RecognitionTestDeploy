@@ -288,7 +288,7 @@
               },
               {
               "name": "AzureAd:ApplicationIdURI",
-              "value": "concat('api://', variables('botAppDomain'),'/', [parameters('appclientId')]]"
+              "value": "[concat('api://', variables('botAppDomain'),'/', [parameters('appclientId')]]"
               },
               {
                 "name": "AzureAd:ValidIssuers",
