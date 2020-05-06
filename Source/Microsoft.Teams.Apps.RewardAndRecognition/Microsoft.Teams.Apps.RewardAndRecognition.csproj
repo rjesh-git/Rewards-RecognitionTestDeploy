@@ -53,7 +53,7 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
-    <AdditionalFiles Include="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), .gitignore))\Build\stylecop.json" />
+    <CodeAnalysisRuleSet>$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), .gitignore))\Build\Analyzer.ruleset</CodeAnalysisRuleSet>
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\src\api\authentication-metadata-api.ts" />
